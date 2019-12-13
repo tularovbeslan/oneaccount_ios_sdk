@@ -1,0 +1,6 @@
+use_frameworks!
+target 'oneaccount_ios_sdk_Tests' do
+  pod 'oneaccount_ios_sdk', :path => '../'
+  
+  
+end
