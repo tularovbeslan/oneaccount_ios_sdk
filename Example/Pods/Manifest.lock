@@ -1,0 +1,16 @@
+PODS:
+  - oneaccount_ios_sdk (0.1.0)
+
+DEPENDENCIES:
+  - oneaccount_ios_sdk (from `../`)
+
+EXTERNAL SOURCES:
+  oneaccount_ios_sdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  oneaccount_ios_sdk: 6ba2db840cdd3046214f0cb1f6529c086f9ecb2a
+
+PODFILE CHECKSUM: 7a9459454d1bde43ef194a92876a51a5d2c00f87
+
+COCOAPODS: 1.8.4

@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0CF86EEEE9BD41DFEC6309DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0CF86EEEE9BD41DFEC6309DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3EDFC0B1F61934A89EAAAB76 /* Pods-oneaccount_ios_sdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneaccount_ios_sdk_Tests.debug.xcconfig"; path = "Target Support Files/Pods-oneaccount_ios_sdk_Tests/Pods-oneaccount_ios_sdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* oneaccount_ios_sdk_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oneaccount_ios_sdk_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		744EF7081AECAEF6CEC2B80A /* Pods_oneaccount_ios_sdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oneaccount_ios_sdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C828071A4CB489FD46144EEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C828071A4CB489FD46144EEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CED6538BBA17F8281423C11E /* Pods-oneaccount_ios_sdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneaccount_ios_sdk_Tests.release.xcconfig"; path = "Target Support Files/Pods-oneaccount_ios_sdk_Tests/Pods-oneaccount_ios_sdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DC74027AAE174D1ACDDC53D6 /* oneaccount_ios_sdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = oneaccount_ios_sdk.podspec; path = ../oneaccount_ios_sdk.podspec; sourceTree = "<group>"; };
+		DC74027AAE174D1ACDDC53D6 /* oneaccount_ios_sdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = oneaccount_ios_sdk.podspec; path = ../oneaccount_ios_sdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				3EDFC0B1F61934A89EAAAB76 /* Pods-oneaccount_ios_sdk_Tests.debug.xcconfig */,
 				CED6538BBA17F8281423C11E /* Pods-oneaccount_ios_sdk_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
